@@ -8,6 +8,6 @@ namespace CleanArchitectureDemo.Domain.Repository
 		Task<Blog?> GetByIdAsync(int id);
 		Task<Blog> CreateAsync(Blog blog);
 		Task<int> UpdateAsync(int id, Blog blog);
-		Task<bool> DeleteAsync(int id);
+		Task<int> DeleteAsync(int id);
 	}
 }
